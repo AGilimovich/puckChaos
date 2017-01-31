@@ -1,0 +1,13 @@
+
+<div ng-controller="RinkController">
+   <div class="timer" ng-controller="TimeController">
+      {{time|date:'mm:ss:sss'}}
+   </div>
+
+   <canvas id="myCanvas" width="500px" height="400px"></canvas>
+   <div class="button-group">
+   <input type="button" class="buttons" value="Return to menu" ng-click="returnToMenu()">
+   <input type="button" class="buttons" value="Restart" ng-click="restart()">
+   </div>
+</div>
+

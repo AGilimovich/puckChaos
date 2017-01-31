@@ -1,0 +1,14 @@
+{
+  "name": "chaos",
+  "version": "1.0.0",
+  "description": "This project is an application skeleton for a typical [AngularJS][angularjs] web app. You can use it to quickly bootstrap your angular webapp projects and dev environment for these projects.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-router": "^0.4.2"
+  }
+}

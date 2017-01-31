@@ -1,0 +1,16 @@
+<div class="form-container" ng-controller="MenuController">
+    <form action="">
+        Количество шайб:<br>
+        <input type="number" ng-model="number" min="0" ng-change="setNumber(number)"><br>
+        Speed: <br>
+
+
+        <input type="range" ng-model="speed" min="0" max="10" step="1" ng-change="changeSpeed(speed)">
+
+
+        <br>
+        <input type="submit" class="submit-button" value="Start" ng-click="start(number)">
+    </form>
+
+
+</div>

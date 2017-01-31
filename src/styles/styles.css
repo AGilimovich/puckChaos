@@ -1,0 +1,38 @@
+/* app css stylesheet */
+
+#myCanvas {
+    border: solid 1px;
+}
+
+.form-container {
+    border: solid 1px;
+    width: 480px;
+    padding: 10px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    margin-top: 10px;
+    width: 20%;
+
+}
+
+.timer {
+    margin: auto;
+    padding: 20px 0 20px 210px;
+}
+
+.button-group {
+    margin: 10px 0 0 10px;
+}
+
+.buttons {
+    margin: 0 280px 0 0;
+    height: 40px;
+    width: 100px;
+    white-space: normal;
+    padding: 0;
+}
+
+
