@@ -1,15 +1,15 @@
 'use strict';
 
-angular.module('chaos', ['chaos.controllers', 'chaos.services', 'chaos.constants', 'ui.router']).
+angular.module('chaos', ['chaos.menu', 'chaos.rink', 'ui.router']).
 config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('menu', {
             url: "/menu",
-            templateUrl: "views/menu.html",
+            templateUrl: "views/menu/menu.html",
         })
         .state('rink', {
             url: "/rink",
-            templateUrl: "views/rink.html"
+            templateUrl: "views/rink/rink.html"
 
         })
 
